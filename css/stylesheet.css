@@ -69,7 +69,7 @@ li::marker {
 }
 
 .checked {
-    color: orange;
+    color: orange !important;
 }
 
 
