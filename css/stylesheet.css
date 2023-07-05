@@ -38,10 +38,12 @@ a {
 a {
     text-decoration: none;
 }
-input:focus{
+
+input:focus {
     outline: none;
     border: none;
 }
+
 /* button style  */
 .btn-style {
     padding: 10px 20px;
@@ -247,7 +249,7 @@ input:focus{
 
 .about-us .right-text li {
     font-size: 17px;
-    list-style-type: none;
+    list-style-type: square;
     margin: 13px 0px;
     font-weight: 500;
     text-transform: capitalize;
@@ -261,6 +263,10 @@ input:focus{
 /***** certificates *****/
 .certificates {
     padding: 50px 0px 50px 0px;
+}
+
+.owl-carousel .owl-stage-outer {
+    margin-top: 25px;
 }
 
 .certificates .main-box img {
@@ -782,24 +788,28 @@ footer .img-set img {
     font-weight: 600;
     line-height: 28px;
 }
-.form-section form p{
+
+.form-section form p {
     font-weight: 400;
     font-size: 16px;
     color: var(--p-text);
     padding-top: 4px;
     padding-bottom: 8px;
 }
-.form-section form input{
+
+.form-section form input {
     width: 100%;
     padding: 16px;
     border: none;
-    border-bottom: 1px solid  #64453857;
+    border-bottom: 1px solid #64453857;
     margin: 4PX 0px;
 }
-.form-section form input:focus{
-    border-bottom: 1px solid  var(--btn-bg-color);
+
+.form-section form input:focus {
+    border-bottom: 1px solid var(--btn-bg-color);
 }
-.form-section form button{
+
+.form-section form button {
     width: 100%;
     margin-top: 35px;
 }
@@ -807,13 +817,16 @@ footer .img-set img {
 .form-section .s-padding {
     padding-left: 40px;
 }
+
 /* section close  */
 
-.map{
+.map {
     padding: 0px 0px 0px 0px;
 }
-.map iframe{
+
+.map iframe {
     min-height: 500px;
     width: 100%;
 }
+
 /***** End contact *****/
