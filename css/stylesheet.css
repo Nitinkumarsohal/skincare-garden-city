@@ -44,6 +44,10 @@ input:focus {
     border: none;
 }
 
+li::marker {
+    color: var(--text-color) !important;
+}
+
 /* button style  */
 .btn-style {
     padding: 10px 20px;
@@ -62,6 +66,10 @@ input:focus {
     font-size: 35px;
     text-align: center;
     text-transform: capitalize;
+}
+
+.checked {
+    color: orange;
 }
 
 
